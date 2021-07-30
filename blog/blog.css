@@ -1,0 +1,114 @@
+.page_content {
+    position: relative;
+    display: inline-block;
+    width: 1183px;
+    left: 80px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.name_content {
+    height: 115px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_wrapper{
+     display: flex; 
+    position: relative; 
+    box-sizing: inherit; 
+    
+  
+}
+
+.scan_content {
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 980px;
+    justify-content: space-between;
+}
+.Post {
+    background-color: #ff5a6000;
+    color: rgb(7, 6, 6);
+}
+.Post:hover {
+    color: #000000;
+}
+.d6 form {
+  height: 42px;
+}
+.d6 input {
+  height: 100%;
+  width: 0;
+  padding: 0 42px 0 15px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  background: transparent;
+  transition: .4s cubic-bezier(0, 0.8, 0, 1);
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.d6 input:focus {
+  width: 300px;
+  z-index: 1;
+  border-bottom: 2px solid #F9F0DA;
+}
+.d6 button {
+  background: #273a4e;
+  border: none;
+  height: 42px;
+  width: 42px;
+  position: relative;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.d6 button:before {
+  content: "\f002";
+  font-size: 16px;
+  color: #F9F0DA;
+}
+.content_wrapper2 {
+  display: inline-block; 
+  position: relative; 
+  display: flex;
+ 
+}
+.Content
+{
+    padding: 1%;
+    margin-left: 10%;
+    display: block;
+    position: static; 
+    width: 972px;
+    
+}
+.content_blog {
+  position: static;
+  display: flex;
+}
+.imarge_wrapper {
+  float: left;
+  display: block;
+  
+}
+.content_text {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 48px 37px;
+}
+.content_nomination {
+  padding-top: 5%;
+  size: 28px;
+}
+.Text_content {
+  padding-top: 5%;
+}

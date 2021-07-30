@@ -1,0 +1,116 @@
+.page_content {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.imarge-wrapper {
+  margin-left: 6%;
+    object-fit: cover;
+    object-position: 50% 100%;
+    float: left;
+    display: block; 
+}
+.description__text {
+    padding-left: 10px;
+   position: relative;
+   margin-left: 5%;
+}
+.content_text {
+    margin-top: 170px;
+    line-height: 1.2em;
+    font-size: 40px;
+}
+.about_text {
+    font-size: 16px;
+    width: 425px;
+    margin-top: 24px;
+}
+.telephone {
+    font-size: 16px;
+    width: 425px;
+    margin-top: 15%;
+}
+.customer_data{
+    margin-top: 10%;
+    width: 400px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+   
+}
+.customers_data {
+    position: static;
+    width: 100%;
+}
+.enter {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.content_input {
+    height: 33px;
+    width: 379px;
+}
+.content_input_messege {
+    width: 379px;
+    height: 126px;
+}
+.but_content {
+    margin-top: 5px;
+}
+.purchase {
+    width: 102px;
+    height: 33px;
+    background-color: #273a4e;
+    color:#ffffff;
+    font-size: 16px; 
+    margin-left: 277px;
+    border: none;
+}
+.content_email {
+    margin-top: 16%;
+    height: auto;
+    width: 400px;
+    align-self: flex-start;
+    position: relative;
+}
+.post_email {
+    margin-top: 15px;
+    align-items: flex-start;
+}
+.I_you_email {
+    
+    align-items: flex-start;
+}
+.content_input_post {
+    height: 33px;
+    width: 238px;
+   
+}
+.purchase_post {
+    width: 133px;
+    height: 33px;
+    background-color: #273a4e;
+    color:#ffffff;
+    font-size: 16px; 
+    float: right;
+    border: none;
+    
+    
+}
+.purchase_post:hover {
+    background-color:#273a4e94;
+    border-color:transparent;
+}
+.purchase:hover {
+    background-color:#273a4e94;
+    border-color:transparent;
+}
+
+.subscribe {
+    right: 25px;
+    float: inherit;
+    bottom: 33px;
+    position: relative;
+    display: block; 
+}

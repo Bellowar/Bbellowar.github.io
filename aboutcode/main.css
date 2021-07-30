@@ -1,0 +1,32 @@
+.page_content {
+    
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.imarge-wrapper {
+  margin-left: 5%;
+    object-fit: cover;
+    object-position: 50% 100%;
+    float: left;
+    display: block;
+}
+.description__text {
+    padding-left: 10px;
+   position: relative;
+   margin-left: 100%;
+   
+   width: 760px;
+   height: 100%;
+}
+
+.about_text {
+    font-size: 16px;
+    width: 425px;
+    margin-top: 24px;
+}
+.greeting {
+    margin-top: 110px;
+    line-height: 1.2em;
+    font-size: 40px;
+}
